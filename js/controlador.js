@@ -1,6 +1,6 @@
 angular.module('demo', ['ngDialog']).controller('control', function($scope,$http,ngDialog){
     
-    $scope.posts=[];
+  $scope.posts=[];
 	$scope.newPost={};
 	$scope.loading=true;
 
